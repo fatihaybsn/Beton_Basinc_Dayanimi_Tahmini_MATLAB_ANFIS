@@ -58,9 +58,9 @@ Target:
 ## Results
 Metrics computed on each split (MPa):
 
-TRAIN: RMSE=4.3397, MAE=3.1558, R2=0.9312 
-VAL: RMSE=7.6945, MAE=5.2297, R2=0.8083
-TEST: RMSE=7.3726, MAE=5.0972, R2=0.7946
+- TRAIN: RMSE=4.3397, MAE=3.1558, R2=0.9312 
+- VAL: RMSE=7.6945, MAE=5.2297, R2=0.8083
+- TEST: RMSE=7.3726, MAE=5.0972, R2=0.7946
 
 **Interpretation:**
 - There is a noticeable generalization gap (train RMSE vs. test RMSE), so the model is not perfectly regularized.
