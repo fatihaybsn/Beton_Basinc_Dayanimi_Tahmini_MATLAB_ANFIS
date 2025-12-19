@@ -58,11 +58,9 @@ Target:
 ## Sonuçlar
 Her bölme üzerinde hesaplanan metrikler (MPa):
 
-TRAIN: RMSE=4.3397, MAE=3.1558, R2=0.9312
-
-VAL: RMSE=7.6945, MAE=5.2297, R2=0.8083
-
-TEST: RMSE=7.3726, MAE=5.0972, R2=0.7946
+- TRAIN: RMSE=4.3397, MAE=3.1558, R2=0.9312
+- VAL: RMSE=7.6945, MAE=5.2297, R2=0.8083
+- TEST: RMSE=7.3726, MAE=5.0972, R2=0.7946
 
 **Yorum:**
 - Belirgin bir genelleme farkı var (train RMSE ile test RMSE), dolayısıyla model mükemmel biçimde düzenlenmiş (regularized) değil.
